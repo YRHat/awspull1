@@ -1,0 +1,4 @@
+Git Integrity
+Git is designed to make sure it is secure and it maintains the integrity of content being version controlled. It uses Check-sum to confirm that information is not lost during transit or is tampered with on the file system. Internally Git creates a checksum value from the content of the file and then verifies it while transmitting or storing data. If the checksum is different there is a corruption in the file. The hashing algorithm used is Secure Hash Algorithm 1 (SHA -1) to calculate the hash.
+
+The checksum is so important to Git that you will find Hash all over the place. A hash typically will look something like this
